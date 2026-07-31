@@ -11,7 +11,7 @@ import subprocess
 PORT = 8000
 HTML_FILE = "drive.html"
 # Folder tujuan sudah disesuaikan
-STORAGE_ROOT = r"C:\Users\Admin\Project\Drive Cloud"
+STORAGE_ROOT = r"DriveCloud"
 
 if not os.path.exists(STORAGE_ROOT):
     os.makedirs(STORAGE_ROOT)
